@@ -1,0 +1,19 @@
+.title{
+    position:relative;
+    font-size:16px;
+    font-weight:bold;
+    color:#da4f49;
+    padding:10px 10px 10px 15px;
+    border-bottom:1px solid #aaa;
+    margin:0 10px;
+}
+.title:after{
+    position:absolute;
+    content:"";
+    width:4px;
+    height: 20px;
+    left:0;
+    top:calc(50% - 10px);
+    background:#da4f49;
+    border-radius:5px;
+}
